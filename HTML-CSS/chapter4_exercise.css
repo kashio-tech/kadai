@@ -1,0 +1,54 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ .header {
+     width: 100%;
+     /*横幅MAX*/
+     height: 50px;
+     /*高さ50px*/
+     background-color: red;
+     /*背景赤色*/
+ }
+
+
+ .main-visual {
+     width: 100%;
+     /*横幅*/
+     height: 500px;
+     /*高さ*/
+     background-color: orange;
+     /*背景色*/
+ }
+
+ .main {
+     width: 960px;
+     height: 1400px;
+     /*横幅*/
+     background-color: palegreen;
+     /*背景色*/
+     margin: 0 auto;
+ }
+
+ .blog {
+     width: 500px;
+     /*横幅*/
+     height: 1400px;
+     /*高さ*/
+     background-color: limegreen;
+     /*背景色*/
+      margin: 0 auto;
+ }
+
+ .footer {
+     width: 100%;
+     /*横幅*/
+     height: 120px;
+     /*高さ*/
+     background-color: blue;
+     /*背景色*/
+ }
