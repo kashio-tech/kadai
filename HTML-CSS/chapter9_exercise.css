@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+main {
+    width: 960px;
+    margin: 50px auto;
+}
+
+.image1 {
+    height: 150px;
+    /*調整のため追加*/
+    width: 278px;
+    background-image: url(img/flow01.png);
+    background-size: cover;
+    background-position: bottom;
+    margin: 10px;
+
+}
+
+.image2 {
+    height: 150px;
+    /*調整のため追加*/
+    width: 278px;
+    background-image: url(img/flow02.png);
+    background-size: cover;
+    background-position: bottom;
+    margin: 10px;
+
+}
+
+
+.image3 {
+    height: 150px;
+    /*調整のため追加*/
+    width: 278px;
+    background-image: url(img/flow03.png);
+    background-size: cover;
+    background-position: bottom;
+    margin: 10px;
+
+}
+
+.box {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.text1 {
+    color: #fff;
+    background-color: #FF9A4B;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px;
+}
+
+.text2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
